@@ -1,4 +1,4 @@
-package com.dh.bolier.board.model.vo;
+package com.dh.boiler.model.vo;
 
 import java.sql.Date;
 

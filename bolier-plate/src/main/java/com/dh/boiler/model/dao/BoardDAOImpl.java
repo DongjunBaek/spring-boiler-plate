@@ -1,4 +1,4 @@
-package com.dh.bolier.board.model.dao;
+package com.dh.boiler.model.dao;
 
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
