@@ -26,7 +26,7 @@
 	</beans:bean>
 	
 	<!-- base-package 하위의 클래스 중에 @Component 어노테이션이 지정된 클래스를 조회해서 빈으로 등록함. -->
-	<context:component-scan base-package="com.kh.ifwe" />
+	<context:component-scan base-package="com.dh.boiler" />
 	
 		<!-- #8. interceptor 등록 -->
 <!-- 	<interceptors>
