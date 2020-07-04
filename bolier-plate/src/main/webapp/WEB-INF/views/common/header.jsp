@@ -39,10 +39,10 @@
         <ul class="navbar-nav ml-auto">
         
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="${pageContext.request.contextPath}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Board</a>
+            <a class="nav-link" href="${pageContext.request.contextPath}/board/list.do">Board</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html">Sign Up</a>
@@ -60,7 +60,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('./boiler/resources/img/home-bg.jpg')">
+  <header class="masthead" style="background-image: url('./resources/img/home-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
